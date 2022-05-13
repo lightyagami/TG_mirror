@@ -1,6 +1,7 @@
-git clone https://github.com/lightyagami/realnibbasgame /root/bot
+git clone https://github.com/lightyagami/test2 mirror-bot/
 cp CREDS/config.env /root/bot/.env
-cd /root/bot
+cd mirror-bot
+cp config_sample.env config.env
 pip3 install -r requirements.txt
 pip3 install -r requirements-cli.txt
 sudo dockerd
